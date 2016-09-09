@@ -58,11 +58,11 @@ function buildLogoHandler(selectedProgram, selectedLevel){
 
 //set style to grayscale
 function addGrayscale(element){
-  element.attr("class","logo inactive");
+  element.attr("class","logo col-1 inactive");
 };
 
 //set style to color (remove grayscale)
 function removeGrayscale(element){
-  element.attr("class","logo active");
+  element.attr("class","logo col-1 active");
 
 };

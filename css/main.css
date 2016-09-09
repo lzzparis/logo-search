@@ -1,3 +1,68 @@
+html {
+  width:50%;
+  margin:0 auto;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing:inherit;
+}
+
+header, section {
+  width:100%;
+  text-align: center;
+
+}
+
+h1 {
+  margin:2rem;
+  font-family:"Great Vibes",cursive;
+  font-size: 3rem;
+  font-weight: 400;
+  color:maroon;
+}
+
+form {
+  width:100%;
+  background-color: #eee;
+}
+
+.search-option {
+  margin:3rem 0 0 0;
+  padding:0.5rem;
+  width:48%;
+  color:#bbb;
+  background-color: #fff;
+  font-weight: bold;
+
+  border-style: inset;
+  text-transform: uppercase;
+}
+
+option {
+  margin:0.5rem;
+  padding:1rem;
+  color: #300;
+  background-color: #D97E7E;
+  font-weight: bold;
+  border: 1px solid #eee;
+  
+}
+
+option :select{
+  color:#700;
+}
+
+.search-submit {
+  margin:1rem;
+  padding:0.5rem 2rem;
+  color: #fff;
+  background-color: #700;
+  border:none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 .active{
   /*border: 2px dashed orange;*/
 
@@ -10,5 +75,25 @@
    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'saturate\' values=\'0.0 \'/></filter></svg>#grayscale");
    filter: gray; /* IE6-9 */
     -webkit-filter: grayscale(100%); /* Google Chrome, Safari 6+ & Opera 15+ */
-   
+}
+
+.col-1 {
+  margin:0;
+  width:25%;
+  padding:4%;
+}
+.col-2 {
+  margin:0;
+  width:50%;
+  padding:2%;
+}
+.col-3 {
+  margin:0;
+  width:75%;
+  padding:2%;
+}
+.col-4 {
+  margin:0;
+  width:100%;
+  padding:2%;
 }
