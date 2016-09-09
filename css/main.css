@@ -1,0 +1,7 @@
+.active{
+  border: 2px dashed orange;
+}
+
+.inactive{
+  border: 2px solid white;
+}
